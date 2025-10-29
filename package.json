@@ -1,0 +1,20 @@
+{
+  "name": "vite-video-franks",
+  "version": "1.0.0",
+  "description": "We Hope To Win",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "vite": "^7.1.11"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}

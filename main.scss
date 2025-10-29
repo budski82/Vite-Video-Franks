@@ -1,0 +1,17 @@
+html,body{
+   font:700 1.2rem sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    background:#789;
+}
+#cvs{
+    border: 0.4px solid black;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background:#73f388;
+    max-width:100%;
+    max-height:100%;
+}
