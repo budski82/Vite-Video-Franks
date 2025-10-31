@@ -1,4 +1,4 @@
-import {canvas,ctx,clear,drawGrid} from './_RenderBus.js'
+import {canvas,ctx,clear} from './_RenderBus.js'
 import './javascripts/classes/_InputHandler.js'
 import './javascripts/classes/_Projectile.js'
 import './javascripts/classes/_Particle.js'
@@ -30,7 +30,7 @@ const game = new Game(canvas.width, canvas.height)
 function animate(){
 // ctx.clearRect(0,0,canvas.width,canvas.height) == ()=> clear()
     clear()
-    drawGrid(50)
+    //drawGrid(50)
     game.update()
     game.draw(ctx)
     requestAnimationFrame(animate)
